@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+@media screen and (min-width:1134px){
+  div>article,div>header{
+    width: 1134px;
+  }
+}
+
+@media screen and (max-width:1133px) and (min-width:980px){
+
+}
+
+@media screen and (max-width:979px) and (min-width:580px){
+  #header>header{
+    display: block;
+    text-align: center;
+  }
+  header>nav{
+    position: fixed;
+    left: -450px;
+    top: 0;
+    background-color: rgb(0,0,0,0.8);
+    width: 386px;
+    height: 100%;
+    padding: 37px;
+    box-sizing: border-box;
+  }
+  header>nav>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  header>nav>ul>li{
+    display: block;
+    margin-left: 0px;
+    border-bottom: 1px solid #fff;
+  }
+  header>nav>ul>li>a{
+    display: block;
+    line-height: 57px;
+  }
+  /* 버튼 */
+  #header .btn{
+    display: block;
+  }
+  nav> .close{
+    position: absolute;
+    top: 20px;
+    right: -60px;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+  }
+  /* box01 */
+  #box01>article>ul>li>span{
+    /* 980변경 */
+    width: 30vw;
+    height: 30vw;
+  }
+  #box01>article>ul>li>dl{
+    width: 28vw;
+  }
+  /* box02 */
+  #info{
+    display: block;
+  }
+  #info>h4{
+    width: 234px;
+    margin-left: 0;
+    margin: 0 auto 25px;
+  }
+  #info>ul{
+    width: 505px;
+    margin-right: 0;
+    display: block;
+    margin: 0 auto 100px;
+  }
+  #info>ul>li{
+    display: flex;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+  }
+  #skill{
+    display: block;
+  }
+  #skill>h4{
+    display: none;
+  }
+  #skill>ul{
+    width: 74.4897959%;
+    margin-right: 0;
+    margin: 0 auto;
+  }
+  /* box03 */
+  #wrap>#box03>article{
+    width: 100%;
+  }
+  #show{
+    width: 68vw;
+    margin: 0 auto;
+    overflow:hidden;
+
+  }
+  #all{
+    width: 204vw;
+  }
+  #all>figure{
+    width: 30vw;
+    text-align: center;
+    margin-bottom: 0;
+    margin: 0 2vw 30px;
+  }
+  #all>figure>img{
+    /* 980변경 */
+    width: 100%;
+  }
+  
+  /* button */
+  #gallery>p{
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    background-color: red;
+    top: 50%;
+    margin-top: -3vw;
+    display: block;
+  }
+  #gallery>.next{
+    right: 4vw;
+  }
+  #gallery>.prev{
+    left: 4vw;
+  }
+  
+  #box04 form{
+    width: 92vw;
+    margin: 0 auto;
+  }
+  #box04 form ul>li{
+    padding-left: 145px;
+  }
+  #box04 form ul>li>label{
+    position: absolute;
+    width: 145px;
+    padding-left: 0;
+    background: none;
+  }
+  #box04 form ul>li:nth-child(2)>label{
+    background-image: none;
+  }
+  #box04 form ul>li:nth-child(3)>label{
+   background-image: none;
+  }
+  #box04 form ul>li:nth-child(4)>label{
+    background-image: none;
+  }
+  aside{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:579px){}
